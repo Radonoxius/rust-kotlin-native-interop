@@ -1,0 +1,4 @@
+headers = native.h
+
+compilerOpts.linux = -I/your_path/rust-kotlin-native-interop/src/native/headers
+linkerOpts.linux = -L/your_path/rust-kotlin-native-interop/build -lnative
