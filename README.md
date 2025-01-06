@@ -13,4 +13,5 @@ and shell script.
 The native library (*.so) should be moved to /usr/lib for the program to run.
 
 Sorry for not using Gradle.
+
 Thank you.
