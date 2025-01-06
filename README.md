@@ -18,7 +18,9 @@ The native library (*.so) should be moved manually to the system folders of your
 
 The shell script does the compiling part for you. Just run the following on your terminal:
 
->>> ./build.sh
+```
+./build.sh
+```
 
 Sorry for not using Gradle.
 
