@@ -1,6 +1,6 @@
 # Rust Interop with Kotlin/Native
 
-This is a simple Rust interop with Kotlin Native.
+This is a simple Rust interop with Kotlin/Native project.
 
 # Prerequisites
 Rust compiler version 1.83 (stable),
