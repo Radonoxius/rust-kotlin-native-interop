@@ -26,8 +26,6 @@ kotlinc-native *.kt -o App -l /your_path/rust-kotlin-native-interop/build/native
 mv App.kexe ../../build
 
 cd ../../build/
-echo ---Running the App---
 chmod +x App.kexe
-./App.kexe
 
 cd ../../
