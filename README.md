@@ -11,10 +11,10 @@ Linux.
 
 (This is what I used. The versions should not be a problem)
 
+# Running the executable
+
 You have to edit libc version in Cargo.toml and the file paths in the def file
 and shell script.
-
-# Running the executable
 
 The native library (*.so) should be moved manually to the system folders of your distro for the program to run.
 
