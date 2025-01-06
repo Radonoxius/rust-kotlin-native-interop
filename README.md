@@ -24,6 +24,6 @@ The shell script does the compiling part for you. Just run the following on your
 ./build.sh
 ```
 
-Sorry for not using Gradle.
+The script will create a build directory with all the compiled items.
 
-Thank you.
+Sorry for not using Gradle!
