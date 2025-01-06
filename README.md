@@ -10,7 +10,7 @@ Kotlin Native compiler 2.1.0 and Linux.
 You have to edit libc version in Cargo.toml and the file paths in the def file
 and shell script.
 
-The native library (*.so) should be moved to /usr/lib for the program to run.
+The native library (*.so) should be moved to the system folders of your distro for the program to run.
 
 Sorry for not using Gradle.
 
