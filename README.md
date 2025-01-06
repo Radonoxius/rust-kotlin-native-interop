@@ -26,4 +26,10 @@ The shell script does the compiling part for you. Just run the following on your
 
 The script will create a build directory with all the compiled items.
 
+Finally, run the app with this:
+
+```
+./App.kexe
+```
+
 Sorry for not using Gradle!
