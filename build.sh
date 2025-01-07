@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 
 #Run this shell script in the parent folder!
 
@@ -9,19 +9,19 @@ echo ---Building native libraries---
 cargo b --release
 
 cd target/release
-mv *.so ../../../../build/
+mv libnative.so ../../../../build/
 
 cd ../../defs
-mv *.def ../../../build/
+mv native.def ../../../build/
 cd ../../../build
 echo ---Generating kotlin bindings---
 cinterop -def native.def -o native
 
-mv *.def ../src/native/defs
+mv native.def ../src/native/defs
 
 cd ../src/kotlin
 echo ---Compiling kotlin---
-kotlinc-native *.kt -o App -l /your_path/rust-kotlin-native-interop/build/native.klib
+kotlinc-native App.kt -o App -l /your_path/rust-kotlin-native-interop/build/native.klib -linker-option -rpath=/your_path/rust-kotlin-native-interop/build
 
 mv App.kexe ../../build
 
