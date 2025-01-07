@@ -16,8 +16,6 @@ Linux.
 You have to edit libc version in Cargo.toml and the file paths in the def file
 and shell script.
 
-The native library (*.so) should be moved manually to the system folders of your distro for the program to run.
-
 The shell script does the compiling part for you. Just run the following on your terminal:
 
 ```
