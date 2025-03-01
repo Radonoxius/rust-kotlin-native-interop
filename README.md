@@ -3,9 +3,9 @@
 This is a simple Rust interop with Kotlin/Native project.
 
 # Prerequisites
-Rust compiler version 1.83 (stable),
+MSRV is 1.85 (stable), Rust 2024 edition,
  
-Kotlin Native compiler 2.1.0 and
+Kotlin Native compiler 2.1.10 and
 
 Linux. 
 
